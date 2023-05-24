@@ -6,9 +6,9 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
+<!--- <h2>Video Demonstration</h2>(coming soon!) -->
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+<!--- - ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)(coming soon!) -->
 
 <h2>Environments and Technologies Used</h2>
 
@@ -31,57 +31,96 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure SLA
 - Configure Help Topics
 
-## Configuration Steps
+<h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-#### Configure role
-- Admin Panel -> Agents -> Roles
+#### Part 1 (Employee Configuration)
+- Configure roles
+    - Admin Panel --> Agents --> Roles
     - Supreme Admin
-#### Configure Departments
-- Admin Panel -> Agents -> Departments
+- Configure Departments
+    - Admin Panel --> Agents --> Departments
     - System Administrators
-#### Configure Teams
-- Admin Panel -> Agents -> Teams
-    - Level I Support
-    - Level II Support
+- Configure Teams
+    - Admin Panel --> Agents --> Teams
+        - Level I Support
+        - Level II Support
 
-<br />
+</br>
 
+#### Configuring Roles.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ov3rZOI.png" height="50%" width="50%" alt="Role Configuration"/>
 </p>
 
-#### Allow anyone to create tickets
-- Admin Panel -> Settings -> User Settings
-    - Registration Required: Require registration and login to create tickets 
-#### Configure Agents (workers)
-- Admin Panel -> Agents -> Add New
-    - Jane
-    - John
-    - Bryant
-#### Configure Users (customers)
-- Agent Panel -> Users -> Add New
-    - Karen
-    - Ken
-    - Britani
-<br />
-
+#### Configuring Departments.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Td8HSme.png" height="50%" width="50%" alt="Department Configuration"/>
 </p>
 
-#### Configure SLA
-- Admin Panel -> Manage -> SLA
-    - Sev-A (1 hour, 24/7)
-    - Sev-B (4 hours, 24/7)
-    - Sev-C (8 hours, business hours)
-#### Configure Help Topics
-- Admin Panel -> Manage -> Help Topics
-    - Business Critical Outage
-    - Personal Computer Issues
-    - Equipment Request
-    - Password Reset
-<br />
+#### Configuring Teams.
+<p>
+<img src="https://i.imgur.com/A6Z5QzH.png" height="50%" width="50%" alt="Team Configuration"/>
+</p>
+
+</br>
+
+#### Part 2 (User Configuration)
+- Allow anyone to create tickets
+    - Admin Panel --> Settings --> User Settings
+    - Registration Required: Ensure Require registration and login to create tickets is unchecked.
+- Configure Agents
+    - Admin Panel --> Users --> Add New
+        - Jane
+        - John
+        - Britani
+- Configure Users
+    - Agent Panel --> Users --> Add New
+        - Karen
+        - Ken
+        - Oliver
+
+</br>
+
+#### Allowing Anyone to Create Tickets.
+<p>
+<img src="https://i.imgur.com/5WbjYRU.png" height="50%" width="50%" alt="Ticket Creation"/>
+</p>
+
+#### Configuring Agents.
+<p>
+<img src="https://i.imgur.com/UnlpAGR.png" height="50%" width="50%" alt="Agent Configuration"/>
+</p>
+
+#### Configuring Users.
+<p>
+<img src="https://i.imgur.com/oHmujpS.png" height="50%" width="50%" alt="User Configuration"/>
+</p>
+
+</br>
+
+#### Part 3 (Business Configuration)
+- Configure SLA
+    - Admin Panel --> Manage --> SLA
+        - Sev-A (1 hour, 24/7)
+        - Sev-B (4 hours, 24/7)
+        - Sev-C (8 hours, Business Hours)
+- Configure Help Topics
+    - Admin Panel --> Manage --> Help Topics
+        - Business Critical Outage
+        - Personal Computer Issues
+        - Equipment Request
+        - Password Reset
+
+</br>
+
+#### Configuring SLA.
+<p>
+<img src="https://i.imgur.com/LXEo34v.png" height="50%" width="50%" alt="SLA Configuration"/>
+</p>
+
+#### Configuring Help Topics.
+<p>
+<img src="https://i.imgur.com/zLhgo2s.png" height="50%" width="50%" alt="Help Topic Configuration"/>
+</p>
+
+
